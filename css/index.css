@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(213,225,239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    display: flex;
+    background-color: whitesmoke;
+    width: 23%;
+    height: 60%;
+    padding: 1%;
+    border-radius: 3%;
+    
+}
+.section-image{
+    display: inline-block;
+    border: red 1px solid;
+    
+    justify-content: center;
+    height: fit-content;
+    
+    
+}
+.section-image img{
+    border-radius: 10px;
+}
