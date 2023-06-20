@@ -7,22 +7,33 @@ body{
 }
 section{
     display: flex;
+    flex-direction: column;
     background-color: whitesmoke;
     width: 23%;
-    height: 60%;
+    height: 67%;
     padding: 1%;
     border-radius: 3%;
+    text-align: center;
+    font-family:'Franklin Gothic',  sans-serif;
     
 }
 .section-image{
-    display: inline-block;
-    border: red 1px solid;
     
+    border-radius: 20px;
     justify-content: center;
     height: fit-content;
-    
-    
 }
 .section-image img{
     border-radius: 10px;
+    width: 100%;
+}
+section #section-quote{
+    color: rgb(140, 140, 140);
+}
+@media(max-width:720px){
+   
+    section{
+        padding: 5%;
+        width: 85%;
+    }
 }
